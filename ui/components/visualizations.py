@@ -1,3 +1,5 @@
+# Path: \Sound_classification\Hitachi\ui\components\visualizations.py
+
 """
 Visualization Components for Streamlit UI
 ==========================================

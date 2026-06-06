@@ -2,3 +2,8 @@
 __pycache__/
 *.log
 6_dB_pump/
+
+# React / Node.js
+pump-ui/node_modules/
+pump-ui/dist/
+pump-ui/.vite/

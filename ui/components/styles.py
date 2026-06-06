@@ -1,3 +1,4 @@
+# Path: \Sound_classification\Hitachi\ui\components\styles.py
 """
 Custom CSS Styling for Streamlit UI
 ====================================

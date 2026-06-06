@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faulty Pump Detection System</title>
+    <style>
+      /* Remove default browser margin/padding so our dark bg fills 100% */
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body { background-color: #0e1117; }
+      #root { min-height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <!--
+      Vite replaces this empty div with the rendered React tree.
+      Equivalent to Streamlit's internal HTML shell — you never touch this file again.
+    -->
+    <div id="root"></div>
+
+    <!--
+      This script tag is the only connection between index.html and your React code.
+      Vite resolves the import chain:
+        main.jsx  →  PumpAnomalyDashboard.jsx  →  recharts, etc.
+    -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

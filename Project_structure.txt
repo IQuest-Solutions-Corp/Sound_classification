@@ -1,7 +1,6 @@
 PUMP ANOMALY DETECTION SYSTEM - PROJECT STRUCTURE
 ==================================================
-
-pump_anomaly_detection/
+Sound_classification/
 │
 │
 ├── api/                                # FastAPI backend
@@ -28,17 +27,16 @@ pump_anomaly_detection/
 │   └── utils.py                        # Helper functions & utilities
 │
 ├── ui/                                 # Streamlit frontend
-│   └── components/                     # UI components
-│   │    ├── __pychache__/
-│   │    ├── __init__.py                 # Package initialization
-│   │    ├── visualizations.py           # Plotly charts & graphs
-│   │    └── styles.py                   # Custom CSS styling
+│   └── components                     # UI components
+│   │       ├── __pychache__/
+│   │       ├── __init__.py                 # Package initialization
+│   │       ├── visualizations.py           # Plotly charts & graphs
+│   │       └── styles.py                   # Custom CSS styling
 │   │
 │   ├── __init__.py                     # Package initialization
 │   └── app.py                # Main UI application
 │
 ├── visualizations/   
-│
 ├── .gitignore
 ├── confusion_matrix.py
 ├── lambda_handler.py

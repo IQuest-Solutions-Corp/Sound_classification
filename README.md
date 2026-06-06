@@ -28,8 +28,8 @@ This project implements a comprehensive anomaly detection system for industrial 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/chanakyakanakam/Manufacturing_Anamoly_Detection.git
-cd Manufacturing_Anamoly_Detection
+git clone https://github.com/chanakyakanakam/Sound_classification.git
+cd Sound_classification
 ```
 
 ### 2. Create and Activate Conda Environment
@@ -47,21 +47,19 @@ pip install -r requirements.txt
 
 ## 📝 Usage
 
-
-
 ### Run Both (API + UI) Simultaneously
 
 **Terminal 1 - API:**
 
 ```bash
 cd api
-conda activate sound_cls
+conda activate sound_cls  # environment
 python main.py
 ```
 
 **Terminal 2 - UI:**
 
 ```bash
-cd ui
-conda activate sound_cls
-streamlit run app.py
+cd pump-ui
+npm install
+npm run dev

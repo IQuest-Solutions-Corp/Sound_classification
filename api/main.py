@@ -1,3 +1,4 @@
+# Path: \Sound_classification\Hitachi\api\main.py
 """
 FastAPI Backend for Pump Anomaly Detection
 ===========================================
@@ -30,7 +31,6 @@ logging.basicConfig(
     level=getattr(logging, config.LOG_LEVEL),
     format=config.LOG_FORMAT,
     handlers=[
-        logging.FileHandler(config.LOG_FILE),
         logging.StreamHandler()
     ]
 )
@@ -359,9 +359,6 @@ if __name__ == "__main__":
     
     print("=" * 80)
     print("Starting Pump Anomaly Detection API Server")
-    print("=" * 80)
-    print(f"Docs: http://localhost:{config.API_PORT}/docs")
-    print(f"Health: http://localhost:{config.API_PORT}/health")
     print("=" * 80)
     print("\nPress CTRL+C to stop the server\n")
 

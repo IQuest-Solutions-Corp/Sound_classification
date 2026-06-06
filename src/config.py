@@ -1,3 +1,4 @@
+# Path: \Sound_classification\Hitachi\src\config.py
 """
 Configuration Management for Pump Anomaly Detection System
 ===========================================================
@@ -42,7 +43,7 @@ class Config:
     
     LOG_LEVEL = "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
     LOG_FORMAT = "[%(asctime)s] %(levelname)s - %(name)s - %(message)s"
-    LOG_FILE = "pump_anomaly.log"
+    
     
     # ========================================================================
     # AUDIO PROCESSING PARAMETERS
@@ -106,7 +107,7 @@ class Config:
     
     # Streamlit settings
     UI_PORT = 8501
-    UI_TITLE = "🔧 Pump Anomaly Detection System"
+    UI_TITLE = "Faulty Pump Detection System"
     UI_ICON = "🔧"
     
     # API endpoint (for Streamlit to call)
@@ -181,7 +182,6 @@ class Config:
         print(f"  URL:            http://localhost:{cls.UI_PORT}")
         print(f"\nLogging Configuration:")
         print(f"  Level:          {cls.LOG_LEVEL}")
-        print(f"  File:           {cls.LOG_FILE}")
         print("=" * 80)
 
 
