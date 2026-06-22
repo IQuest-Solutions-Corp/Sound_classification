@@ -20,7 +20,7 @@ This project implements a comprehensive anomaly detection system for industrial 
 - 🎯 **High Performance** - 96.70% recall with cost-sensitive learning
 - 📈 **Confusion Matrix Visualization** - Detailed performance metrics
 - 🖥️ **Web UI** - Interactive Streamlit dashboard for predictions
-
+- Training data: https://zenodo.org/records/3384388
 ---
 
 ## 🚀 Installation
@@ -28,7 +28,7 @@ This project implements a comprehensive anomaly detection system for industrial 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/chanakyakanakam/Sound_classification.git
+git clone https://github.com/IQuest-Solutions-Corp/Sound_classification.git
 cd Sound_classification
 ```
 
