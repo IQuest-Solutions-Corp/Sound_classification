@@ -26,7 +26,11 @@ import {
 // CONSTANTS
 // ═══════════════════════════════════════════════════════════════════════════
 
-const API_URL = "http://localhost:8001";
+// Use the Vite dev-server proxy (see vite.config.js) instead of hitting the
+// backend directly. The backend binds to 0.0.0.0 (IPv4 only); fetching
+// "http://localhost:8001" from the browser fails on Windows because localhost
+// resolves to ::1 (IPv6). The "/api" proxy forwards to 127.0.0.1:8001 (IPv4).
+const API_URL = "/api";
 
 const C = {
   primary:    "#1f77b4",
